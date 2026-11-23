@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/xy/AlgorithmPractise/build",
+  "command": "/opt/rh/devtoolset-11/root/usr/bin/g++    -g   -o CMakeFiles/hashtable.dir/src/main.cpp.o -c /home/xy/AlgorithmPractise/Hashtable/src/main.cpp",
+  "file": "/home/xy/AlgorithmPractise/Hashtable/src/main.cpp"
+}
+]
