@@ -1,5 +1,6 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/hashtable.dir/src/main.cpp.o"
+  "CMakeFiles/hashtable.dir/src/hashtable.cpp.o"
   "hashtable.pdb"
   "hashtable"
 )

@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = /home/xy/AlgorithmPractise/build
 CMakeFiles/hashtable.dir/all:
 	$(MAKE) -f CMakeFiles/hashtable.dir/build.make CMakeFiles/hashtable.dir/depend
 	$(MAKE) -f CMakeFiles/hashtable.dir/build.make CMakeFiles/hashtable.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xy/AlgorithmPractise/build/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xy/AlgorithmPractise/build/CMakeFiles  1 2
 	@echo "Built target hashtable"
 .PHONY : CMakeFiles/hashtable.dir/all
 
@@ -72,7 +72,7 @@ all: CMakeFiles/hashtable.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hashtable.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xy/AlgorithmPractise/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xy/AlgorithmPractise/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hashtable.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/xy/AlgorithmPractise/build/CMakeFiles 0
 .PHONY : CMakeFiles/hashtable.dir/rule

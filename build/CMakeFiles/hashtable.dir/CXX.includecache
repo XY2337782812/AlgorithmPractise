@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xy/AlgorithmPractise/Hashtable/include/hash.h
+iostream
+-
+vector
+-
+list
+-
+
+/home/xy/AlgorithmPractise/Hashtable/src/hashtable.cpp
+hash.h
+/home/xy/AlgorithmPractise/Hashtable/src/hash.h
+
+/home/xy/AlgorithmPractise/Hashtable/src/main.cpp
+hash.h
+/home/xy/AlgorithmPractise/Hashtable/src/hash.h
+

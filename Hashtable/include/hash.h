@@ -10,10 +10,6 @@ struct Node
 {
     int key;
     int value;
-};struct Node
-{
-    int key;
-    int value;
 };
 
 class HashTable
@@ -25,7 +21,6 @@ private:
 
 public:
     HashTable();
-    ~HashTable();
     void insert(int key, int value);
     bool find(int key, int &value) const;
     void remove(int key);

@@ -114,6 +114,30 @@ hashtable/fast:
 	$(MAKE) -f CMakeFiles/hashtable.dir/build.make CMakeFiles/hashtable.dir/build
 .PHONY : hashtable/fast
 
+src/hashtable.o: src/hashtable.cpp.o
+.PHONY : src/hashtable.o
+
+# target to build an object file
+src/hashtable.cpp.o:
+	$(MAKE) -f CMakeFiles/hashtable.dir/build.make CMakeFiles/hashtable.dir/src/hashtable.cpp.o
+.PHONY : src/hashtable.cpp.o
+
+src/hashtable.i: src/hashtable.cpp.i
+.PHONY : src/hashtable.i
+
+# target to preprocess a source file
+src/hashtable.cpp.i:
+	$(MAKE) -f CMakeFiles/hashtable.dir/build.make CMakeFiles/hashtable.dir/src/hashtable.cpp.i
+.PHONY : src/hashtable.cpp.i
+
+src/hashtable.s: src/hashtable.cpp.s
+.PHONY : src/hashtable.s
+
+# target to generate assembly for a file
+src/hashtable.cpp.s:
+	$(MAKE) -f CMakeFiles/hashtable.dir/build.make CMakeFiles/hashtable.dir/src/hashtable.cpp.s
+.PHONY : src/hashtable.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -147,6 +171,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... hashtable"
 	@echo "... rebuild_cache"
+	@echo "... src/hashtable.o"
+	@echo "... src/hashtable.i"
+	@echo "... src/hashtable.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

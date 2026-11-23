@@ -24,6 +24,6 @@ int main()
 
     ht.print();
 
-    return;
+    return 0;
 }
 
